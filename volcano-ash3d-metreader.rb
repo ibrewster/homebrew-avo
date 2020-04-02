@@ -12,7 +12,6 @@ class VolcanoAsh3dMetreader < Formula
   depends_on "autoconf"
   depends_on "netcdf"
   depends_on "eccodes"
-  depends_on "shtools/shtools/shtools"
   depends_on "liamtoney/avog2s/hourssince"
   depends_on "liamtoney/avog2s/projection"
   
