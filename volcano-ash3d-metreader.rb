@@ -8,10 +8,11 @@ class VolcanoAsh3dMetreader < Formula
   version "0.1"
   sha256 "84bed8418791e35be84cbb5d4282da18d9c48887b7fae3109efbbe7a8a6ada87"
 
-  depends_on :gcc
+  depends_on "gcc"
+  depends_on "autoconf"
   depends_on "netcdf"
   depends_on "eccodes"
-  depends_on "/shtools/shtools/shtools"
+  depends_on "shtools/shtools/shtools"
   depends_on "liamtoney/avog2s/hourssince"
   depends_on "liamtoney/avog2s/projection"
   
@@ -19,7 +20,7 @@ class VolcanoAsh3dMetreader < Formula
   def install
     system "autoconf"
     system "./configure", "--prefix=#{prefix}"
-	system "make",
+	system "make"
 	system "make","install"
   end
 
