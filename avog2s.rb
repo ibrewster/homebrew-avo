@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Avog2s < Formula
   desc "USGS Volcano Ash3d"
   homepage "https://github.com/ibrewster/volcano-avog2s"
