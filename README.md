@@ -1,6 +1,6 @@
 # homebrew-avo
 
-This is the unoffical [Homebrew](https://brew.sh/) tap for [AVO-G2S](https://github.com/usgs/volcano-avog2s) ([Schwaiger *et al.*, 2019](https://doi.org/10.1016/j.cageo.2018.12.013)).
+This is the unoffical [Homebrew](https://brew.sh/) tap for AVO-related projects.
 
 ## Install
 
