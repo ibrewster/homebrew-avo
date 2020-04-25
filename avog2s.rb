@@ -38,4 +38,14 @@ class Avog2s < Formula
 	system "make","install"
   end
 
+  def caveats
+    <<~EOS
+      To use the HWM14 library with AVOG2S, you will need to add the following
+      line to your `~/.bash_profile` or similar:
+	  
+      `export HWMPATH=#{prefix}/ExternalData/HWM14`
+	  
+    EOS
+  end
+
 end
