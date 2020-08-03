@@ -1,9 +1,9 @@
 class Projection < Formula
   desc "Performs conversions between lat/lon and various projections commonly used in NWP forecast/reanalysis products"
   homepage "https://github.com/usgs/volcano-ash3d-projection"
-  url "https://github.com/usgs/volcano-ash3d-projection/archive/master.tar.gz"
-  version "0.1"  # I had to make up a version number since there are no releases
-  sha256 "5cc841902aa3050b20cf176c8eedb74810aff39ed8a9e038cc337b10e374cd13"
+  url "https://github.com/usgs/volcano-ash3d-projection/archive/master.tar.gz?_=2"
+  version "0.2"  # I had to make up a version number since there are no releases
+  sha256 "49959024fea65be92c4a206bf9650ec3ec1045c1c50da6bc892f6e4040517bee"
 
   depends_on "gcc" => :build
 
