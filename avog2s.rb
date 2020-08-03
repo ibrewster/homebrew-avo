@@ -1,5 +1,5 @@
 class Avog2s < Formula
-  desc "USGS Volcano Ash3d"
+  desc "USGS Volcano Avog2s"
   homepage "https://github.com/ibrewster/volcano-avog2s"
   url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.2"
   version "0.1.2"
