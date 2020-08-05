@@ -25,18 +25,23 @@ where `<formula_name>` is any of the filenames (minus extension) contained in th
 ## Currently supported formulae
 
 ### *hourssince*
+#### repo link:
 [usgs/volcano-ash3d-hourssince](https://github.com/usgs/volcano-ash3d-hourssince)
 
 ### *projection*
+#### repo link:
 [usgs/volcano-ash3d-projection](https://github.com/usgs/volcano-ash3d-projection)
 
 ### *nrlmsise-00*
+#### repo link:
 [graziano-giuliani/Meteostuff](https://github.com/graziano-giuliani/Meteostuff)
 
 ### *volcano-ash3d-metreader*
+#### repo link:
 [usgs/volcano-ash3d-metreader](https://github.com/usgs/volcano-ash3d-metreader)
 
 ### *avog2s*
+#### Repo link:
 [usgs/volcano-avog2s](https://github.com/usgs/volcano-avog2s)
 
 ## More information
