@@ -25,30 +25,25 @@ where `<formula_name>` is any of the filenames (minus extension) contained in th
 ## Currently supported formulae
 
 ### *hourssince*
-#### Repo link:
-[usgs/volcano-ash3d-hourssince](https://github.com/usgs/volcano-ash3d-hourssince)
+- Repo link: [usgs/volcano-ash3d-hourssince](https://github.com/usgs/volcano-ash3d-hourssince)
 
 ### *projection*
-#### Repo link:
-[usgs/volcano-ash3d-projection](https://github.com/usgs/volcano-ash3d-projection)
+- Repo link: [usgs/volcano-ash3d-projection](https://github.com/usgs/volcano-ash3d-projection)
 
 ### *nrlmsise-00*
-#### Repo link:
-[graziano-giuliani/Meteostuff](https://github.com/graziano-giuliani/Meteostuff)
+- Repo link: [graziano-giuliani/Meteostuff](https://github.com/graziano-giuliani/Meteostuff)
 
 ### *volcano-ash3d-metreader*
-#### Repo link:
-[usgs/volcano-ash3d-metreader](https://github.com/usgs/volcano-ash3d-metreader)
+- Repo link: [usgs/volcano-ash3d-metreader](https://github.com/usgs/volcano-ash3d-metreader)
 
 ### *avog2s*
-#### Repo link:
-[usgs/volcano-avog2s](https://github.com/usgs/volcano-avog2s)
+- Repo link: [usgs/volcano-avog2s](https://github.com/usgs/volcano-avog2s)
 
 ## More information
 
 You can read up about Homebrew taps [here](https://docs.brew.sh/Taps). Having problems? Please [submit an issue](https://github.com/ibrewster/homebrew-avo/issues/new).
 
-## Example:
+## Example
 To install the hourssince package:
 
 - If you do not have homebrew installed:
