@@ -12,7 +12,7 @@ class Hourssince < Formula
   def install
     system "autoconf"
     system "./configure", "--prefix=#{prefix}"
-    system "make"
+    system "make", "all"
     system "make", "install"
   end
 end
