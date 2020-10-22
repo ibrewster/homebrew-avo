@@ -4,8 +4,10 @@ class Hourssince < Formula
   url "https://github.com/ibrewster/volcano-ash3d-hourssince/archive/master.tar.gz"
   version "0.3"  # I had to make up a version number since there are no releases
   sha256 "22ff5041468bc5404f33f41974e9f3fc48d51742366bedcd9f17d399d0b2a004"
+  revision 2
 
   depends_on "gcc" => :build
+  depends_on "autoconf"
 
   def install
     system "autoconf"
