@@ -1,10 +1,10 @@
 class VolcanoAsh3dMetreader < Formula
   desc "USGS Volcano Ash3d MetReader"
   homepage "https://github.com/ibrewster/volcano-ash3d-metreader"
-  url "https://github.com/ibrewster/volcano-ash3d-metreader/archive/master.zip?_=3"
+  url "https://github.com/ibrewster/volcano-ash3d-metreader/archive/master.zip?_=32"
   version "0.3"
-  sha256 "9e428d0a7fc4a0e431e288581c06230a63e9d1a0e7bc02b5185fcd6477af042a"
-  revision 1
+  sha256 "22145880563e9a316d445025d8a14470612ae31320c35b7a47f98bdee6af3e41"
+  revision 2
 
   depends_on "gcc"
   depends_on "autoconf"
