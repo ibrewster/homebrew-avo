@@ -9,6 +9,7 @@ class Avog2s < Formula
   depends_on "autoconf"
   depends_on "netcdf"
   depends_on "eccodes"
+  depends_on "openblas"
   depends_on "shtools/shtools/shtools"
   depends_on "ibrewster/avo/hourssince"
   depends_on "ibrewster/avo/projection"
