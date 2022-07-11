@@ -1,8 +1,8 @@
 class Avog2s < Formula
   desc "USGS Volcano Avog2s"
   homepage "https://github.com/ibrewster/volcano-avog2s"
-  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.3"
-  version "0.1.3"
+  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.4"
+  version "0.1.4"
   sha256 "037a12928450f11eaa687022162369d9590f760d26fb7a8eaa9d4e420647ea27"
 
   depends_on "gcc"
@@ -10,7 +10,7 @@ class Avog2s < Formula
   depends_on "netcdf"
   depends_on "eccodes"
   depends_on "openblas"
-  depends_on "shtools/shtools/shtools"
+  depends_on "shtools"
   depends_on "ibrewster/avo/hourssince"
   depends_on "ibrewster/avo/projection"
   depends_on "ibrewster/avo/volcano-ash3d-metreader"
