@@ -1,8 +1,8 @@
 class Avog2s < Formula
   desc "USGS Volcano Avog2s"
   homepage "https://github.com/ibrewster/volcano-avog2s"
-  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.4"
-  version "0.1.4"
+  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.5"
+  version "0.1.5"
   sha256 "037a12928450f11eaa687022162369d9590f760d26fb7a8eaa9d4e420647ea27"
 
   depends_on "gcc"
@@ -17,10 +17,7 @@ class Avog2s < Formula
   depends_on "ibrewster/avo/NRLMSISE-00"
   
   resource "hwm_14" do
-     url 'https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2F2014EA000089&file=ess224-sup-0002-supinfo.tgz',
-     cookies: {
-                 'somecookie' => 'somevalue',
-               }
+     url 'https://github.com/ibrewster/homebrew-avo/blob/f84e198304bdd1b4fa9c23bd2f2e0ca47994692e/ess224-sup-0002-supinfo.tgz?raw=true'
      sha256 "4de451beeadef7b3ec3aa5b91129ea98866b9e7156cecf4be1343c33a6f57978"
   end
 
