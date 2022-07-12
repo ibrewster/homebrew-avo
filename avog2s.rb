@@ -1,9 +1,9 @@
 class Avog2s < Formula
   desc "USGS Volcano Avog2s"
   homepage "https://github.com/ibrewster/volcano-avog2s"
-  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.5"
-  version "0.1.5"
-  sha256 "037a12928450f11eaa687022162369d9590f760d26fb7a8eaa9d4e420647ea27"
+  url "https://github.com/ibrewster/volcano-avog2s/archive/master.zip?version=0.1.6"
+  version "0.1.6"
+  sha256 "0b7aab5cd057496975be99fa53294a1689b8813a7392a26e24a596beb0de9e5f"
 
   depends_on "gcc"
   depends_on "autoconf"
