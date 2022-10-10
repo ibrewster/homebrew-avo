@@ -9,6 +9,7 @@ class VolcanoAsh3dMetreader < Formula
   depends_on "gcc"
   depends_on "autoconf"
   depends_on "netcdf"
+  depends_on "netcdf-fortran"
   depends_on "eccodes"
   depends_on "ibrewster/avo/projection"
   depends_on "ibrewster/avo/hourssince"

@@ -8,6 +8,7 @@ class Avog2s < Formula
   depends_on "gcc"
   depends_on "autoconf"
   depends_on "netcdf"
+  depends_on "netcdf-fortran"
   depends_on "eccodes"
   depends_on "openblas"
   depends_on "shtools"
