@@ -11,7 +11,15 @@ class Avog2s < Formula
   depends_on "netcdf-fortran"
   depends_on "eccodes"
   depends_on "openblas"
-  depends_on "shtools"
+
+  on_macos do
+    depends_on "shtools"
+  end
+
+  on_linux do
+    depends_on "ibrewster/avo/shtools-linux"
+  end
+
   depends_on "ibrewster/avo/hourssince"
   depends_on "ibrewster/avo/projection"
   depends_on "ibrewster/avo/volcano-ash3d-metreader"
